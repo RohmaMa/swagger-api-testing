@@ -2,7 +2,7 @@
 
 A REST API for managing tasks, built with Python and [FastAPI](https://fastapi.tiangolo.com/) and documented with Swagger UI.
 
-> **A learning project.** Built from scratch with AI assistance to Swagger UI / OpenAPI documentation. Data is stored in memory and resets when the server restarts. Not intended for production use.
+> **A learning project.** Built from scratch with AI assistance to learn Swagger UI / OpenAPI documentation. Data is stored in memory and resets when the server restarts. Not intended for production use.
 
 ## Quick start
 
@@ -95,7 +95,7 @@ The default demo key is `demo-key-123`. To use your own, copy `.env.example` to 
 
 | Problem | Fix |
 |---|---|
-| Error mentioning `str | None` or a syntax error on startup | Python is older than 3.10. Install a newer version |
+| Syntax error on startup | Python is older than 3.10. Install a newer version |
 | `Address already in use` | Another server is on port 8000. Stop it, or run `uvicorn main:app --reload --port 8001` |
 | `401` in Swagger UI | Click **Authorize** and enter `demo-key-123` (or the value in your `.env`) |
 | The task list is empty after a restart | Expected. Tasks are stored in memory |
