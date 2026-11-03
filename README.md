@@ -9,9 +9,9 @@ A REST API for managing tasks, built with Python and [FastAPI](https://fastapi.t
 **Requires Python 3.10 or newer** (check with `python3 --version`).
 
 ```
-git clone <repo-url>
-cd todo-list-api
-bash run.sh
+   git clone https://github.com/RohmaMa/swagger-api-testing.git
+   cd swagger-api-testing
+   bash run.sh
 ```
 
 Then open **http://127.0.0.1:8000/docs**, click **Authorize**, enter the demo API key `demo-key-123`, and use **Try it out** on any endpoint.
